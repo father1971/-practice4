@@ -1,1 +1,2 @@
-console.log(100)
+let sum = 2 + 3;
+console.log(sum);
