@@ -1,9 +1,12 @@
-let number_of_employees = 10;
-let salary = 2000;
-let total_salary =
-number_of_employees * salary;
-console.log(total_salary);
-let other_expences = 10000;
-let total_expences =
-total_salary + other_expences;
-console.log(total_expences);
+function calculate_salary(role) {
+  let salary = 0;
+  if (role === 'engineer') {
+    salary = 4000;
+  } else {
+    salary = 1500;
+  }
+  return salary;
+}
+let role = 'worker';
+let salary = calculate_salary(role);
+console.log(salary);
