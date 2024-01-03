@@ -10,3 +10,10 @@ let worker_salary = calculate_salary('worker');
 if (worker_salary !== 1500) {
   passed = false;
 }
+console.log(passed);
+
+let accountant_salary = calculate_salary('accountant');
+if (accountant_salary !== 2500) {
+  passed = false;
+}
+console.log(passed);
